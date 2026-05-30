@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索片库-电视剧热播榜单-热门好看的电视剧大全-全集高清在线播放</title>
+    <meta name="description" content="搜索电视剧片名、题材、年份与地区，快速查找热门剧集和高清在线播放入口。">
+    <meta name="keywords" content="电视剧热播榜单,热门电视剧,电视剧大全,全集播放,热播剧集,精选剧集,搜索片库">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="nav-wrap">
+        <a class="logo" href="./index.html" aria-label="电视剧热播榜单">
+            <span class="logo-mark">▶</span>
+            <span>电视剧热播榜单</span>
+        </a>
+        <nav class="desktop-nav">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./ranking.html">热播榜</a>
+                <a href="./category-01.html">热播剧集</a>
+                <a href="./category-02.html">近期新剧</a>
+                <a href="./category-03.html">悬疑惊悚</a>
+                <a href="./category-04.html">都市情感</a>
+                <a href="./category-05.html">历史年代</a>
+        </nav>
+        <form class="top-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索剧名、题材、地区" aria-label="搜索">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-btn" type="button" aria-label="展开导航">☰</button>
+    </div>
+    <div class="mobile-panel">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">热播榜</a>
+        <a href="./category-01.html">热播剧集</a><a href="./category-02.html">近期新剧</a><a href="./category-03.html">悬疑惊悚</a><a href="./category-04.html">都市情感</a><a href="./category-05.html">历史年代</a>
+        <form action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索片名或关键词">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+<section class="page-hero">
+    <div class="page-hero-inner">
+        <div class="breadcrumb"><a href="./index.html">首页</a> / 搜索</div>
+        <h1 data-search-title>搜索片库</h1>
+        <p>输入剧名、题材、年份或地区，快速查找相关影片详情。</p>
+    </div>
+</section>
+<main class="section">
+    <div class="filter-box" style="margin-top: 0;">
+        <form action="./search.html" method="get" style="display: contents;">
+            <input type="search" name="q" placeholder="输入片名、题材或地区">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+    <div class="search-list" data-search-results></div>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <div class="footer-logo">电视剧热播榜单</div>
+            <p>整理电视剧热播榜单页面内容，涵盖近期热门剧集、精选剧单和分类片库。</p>
+        </div>
+        <div>
+            <h3>频道入口</h3>
+            <div class="footer-links">
+                <a href="./category-01.html">热播剧集</a>
+                <a href="./category-02.html">近期新剧</a>
+                <a href="./category-03.html">悬疑惊悚</a>
+                <a href="./category-04.html">都市情感</a>
+                <a href="./category-05.html">历史年代</a>
+                <a href="./category-06.html">家庭生活</a>
+                <a href="./category-07.html">喜剧轻松</a>
+                <a href="./category-08.html">奇幻冒险</a>
+                <a href="./category-09.html">青春校园</a>
+                <a href="./category-10.html">口碑精选</a>
+            </div>
+        </div>
+        <div>
+            <h3>快速浏览</h3>
+            <div class="footer-links">
+                <a href="./index.html#latest">近期更新</a>
+                <a href="./index.html#hot">热门推荐</a>
+                <a href="./ranking.html">热播榜单</a>
+                <a href="./categories.html">分类片库</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 电视剧热播榜单 · 高清剧集与精选片库</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
